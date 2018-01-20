@@ -513,3 +513,12 @@ h6,
   text-align: left;
 }
 
+.nav-tabs > li {
+    float:none !important;
+    display:inline-block !important;
+    zoom:1 !important;
+}
+
+.nav-tabs {
+    text-align:center !important;
+}
