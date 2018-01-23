@@ -3,7 +3,7 @@ $.fn.outerFind = function(selector) {
 };
 function initTabs(target) {
     if ($(target).find('.nav-tabs').length !== 0) {
-        $(target).outerFind('section[id^="tabs"]').each(function() {
+        $(target).outerFind('section[id^="portfolio"]').each(function() {
             var componentID = $(this).attr('id');
             var $tabsNavItem = $(this).find('.nav-tabs .nav-item');
             var $tabPane = $(this).find('.tab-pane');
